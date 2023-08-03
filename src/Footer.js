@@ -6,7 +6,7 @@ const Footer = ({length}) => {
   return (
     <footer>
       <p>{length} List {length > 1 ? "Items" : "Item"}</p>
-      <p>Copyright &copy;{Today.getFullYear()}</p>
+      <h6>Copyright &copy;{Today.getFullYear()}</h6>
     </footer>
   );
 };
